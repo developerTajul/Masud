@@ -1,0 +1,191 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+	.latest-blog-heading .section-heading p, 
+	.services-icon-heading .section-heading p, 
+	.portfolio-heading .section-heading p, 
+	.testimonial-heading .section-heading p, 
+	.contact-form-heading .section-heading p 
+	{
+		padding: 0 90px;
+	}
+
+	
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.banner-area.style-1 .inner-banner-wrapper .banner-text p {
+		padding: 0;
+	}
+
+	.banner-area.style-1 .inner-banner-wrapper .banner-text h2 {
+		font-size: 40px;
+		line-height: 40px;
+		height: 40px;
+	}
+
+	.about-img img {
+		width: 100%;
+	}
+
+	.single-testimonial-item {
+		padding: 25px 20px;
+	}
+
+	.latest-blog-heading .section-heading p,
+	.services-icon-heading .section-heading p, 
+	.portfolio-heading .section-heading p, 
+	.testimonial-heading .section-heading p, 
+	.contact-form-heading .section-heading p {
+		padding: 0;
+	}
+
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+	/** banner **/
+	.banner-area.style-1 .inner-banner-wrapper .banner-text h3 {
+		font-size: 20px;
+		color: #fff;
+		margin-bottom: 20px;
+	}
+	.banner-area.style-1 .inner-banner-wrapper .banner-text h2 {
+		font-size: 30px;
+		line-height: 25px;
+		margin-bottom: 30px;
+		height: 30px;
+	}
+	.banner-area.style-1 .inner-banner-wrapper .banner-text p {
+		font-size: 16px;
+		padding: 0;
+	}
+	.banner-area.style-1 .inner-banner-wrapper .banner-text a {
+		padding: 10px 25px;
+	}
+	.banner-area.style-1 .inner-banner-wrapper .banner-text h2 span:last-child {
+		font-size: 30px;
+	}
+
+
+	/** heading-area **/
+	.services-icon-heading,
+	.portfolio-heading,
+	.testimonial-heading,
+	.latest-blog-heading,
+	.contact-form-heading{
+		padding: 90px 0 30px;
+	}
+
+	.testimonial-heading{
+		padding: 90px 0 0;
+	}
+
+	.testimonial-area{
+		padding-bottom: 60px;
+	}
+
+	.portfolio-area{
+		padding: 0 0 70px;
+	}
+
+	.portfolio-area .portfolio-menu button {
+		font-size: 16px;
+	}
+	.testimonial-active i.slick-arrow {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+
+	.services-area{
+		padding-bottom: 40px;
+	}
+
+	.about-area{
+		padding: 90px 0 60px;
+	}
+
+	.testimonial-area,
+	.latest-blog-area{
+		padding: 0 0 30px;
+	}
+
+	.latest-blog-heading .section-heading p,
+	.services-icon-heading .section-heading p, 
+	.portfolio-heading .section-heading p, 
+	.testimonial-heading .section-heading p, 
+	.contact-form-heading .section-heading p {
+		padding: 0;
+	}
+
+
+
+
+
+	.single-testimonial-item {
+		padding: 25px 20px;
+	}
+
+
+	.cta-area .cta-text h3 {
+		font-size: 25px;
+	}
+	.cta-area .cta-text p {
+		font-size: 16px;
+	}
+	.cta-area .cta-text a {
+		padding: 12px 30px;
+	}
+
+
+	/** latest-blog-area **/
+	.latest-blog-area .single-blog-item .inner-blog-wrapper .blog-title h3 {
+		font-size: 16px;
+	}
+
+
+	/** footer **/
+	.footer-area .copy-right-info .copy-right p {
+		text-align: center;
+	}
+
+
+
+	.footer-top-widget h2 {
+		margin-bottom: 12px;
+	}
+
+	.widget_recent_entries ul {
+		float: inherit;
+	}
+	.widget_recent_entries ul li {
+		margin-bottom: 12px;
+	}
+	.widget_recent_entries ul li a {
+		line-height: 20px;
+	}
+
+	.contact-form textarea, .contact-form input {
+		padding: 20px;
+	}
+
+	
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}

@@ -1,0 +1,26 @@
+.section-heading{
+    h2{
+        font-size: 30px;
+        margin-bottom: 12px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+    p{
+        padding: 0 15px;
+    }
+}
+.latest-blog-heading,
+.services-icon-heading,
+.portfolio-heading,
+.testimonial-heading,
+.contact-form-heading
+{
+
+    .section-heading{
+        h2{ }
+        p{
+            padding: 0 156px;
+        }
+    }
+
+}

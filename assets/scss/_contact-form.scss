@@ -1,0 +1,41 @@
+.contact-form{
+    textarea,
+    input{
+        width: 100%;
+        border: 1px solid #10B4B3;
+        padding: 25px;
+        margin-bottom: 25px;
+        border-radius: 3px;
+    }
+
+    textarea{
+        margin-bottom: 50px;
+    }
+
+    input[type="submit"]{
+        width: inherit;
+        padding: 15px 30px;
+    }
+
+}
+
+
+.contact-info{
+    .phone-number,
+    .email-address,
+    .location
+    {
+        border: 1px solid #10B4B3;
+        padding: 19px;
+        margin-bottom: 25px;
+        i{
+            font-size: 25px;
+            color: #10B4B3;
+        }
+        span{
+            font-size: 20px;
+        }
+    }
+
+
+}

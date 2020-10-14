@@ -1,0 +1,56 @@
+.single-testimonial-item{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    
+    padding: 25px 76px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: .3s;
+    .icon-wrapper{
+        i{
+            font-size: 25px;
+            color: #202020;
+            margin-bottom: 15px;
+        }
+    }
+    .author-meta{
+        p{
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        h5{
+            font-size: 20px;
+        }
+    }
+    &:hover {
+        box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+// slider arrow
+.testimonial-active i.slick-arrow {
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 78;
+    background: #DC143B;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+.testimonial-active i.slick-arrow:hover {
+	background: #10B4B3;
+}
+.testimonial-active i.fa-angle-left {
+    top: 50%;
+    left: 0;
+}
+.testimonial-active i.fa-angle-right {
+    top: 50%;
+	right: 0;
+}
